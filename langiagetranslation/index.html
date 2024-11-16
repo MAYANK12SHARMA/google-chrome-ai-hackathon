@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation API Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Translate Text</h1>
+        <textarea id="inputText" placeholder="Enter text to translate"></textarea>
+
+        <!-- Language Selectors -->
+        <select id="sourceLang">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="ja">Japanese</option>
+        </select>
+
+        <select id="targetLang">
+            <option value="es">Spanish</option>
+            <option value="en">English</option>
+            <option value="ja">Japanese</option>
+        </select>
+
+        <!-- Translate Button -->
+        <button id="translateBtn">Translate</button>
+
+        <!-- Output text after translation -->
+        <p id="outputText"></p>
+    </div>
+
+    <!-- Link to external script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
