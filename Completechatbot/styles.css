@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+#chatbox {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+#chat-form {
+  display: flex;
+}
+
+#user-input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+#file-status {
+  margin-bottom: 20px;
+}
+
+#summaryResult {
+  margin-top: 20px;
+}

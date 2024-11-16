@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload, Summarization & Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>AI Chatbot with File Upload and Summarization</h1>
+
+    <!-- File Upload -->
+    <input type="file" id="file-upload" accept=".txt,.pdf" />
+    <div id="file-status">No file uploaded.</div>
+
+    <!-- Summarization Area -->
+    <button id="summarizeButton">Summarize Uploaded File</button>
+    <p id="processingMessage" style="display:none;">Processing...</p>
+    <p id="summaryResult"></p>
+
+    <!-- Chatbot Area -->
+    <div id="chatbox">
+        <p><strong>Bot:</strong> Upload a file and ask me anything.</p>
+    </div>
+
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Ask a question..." />
+        <button type="submit">Ask</button>
+    </form>
+
+    <button id="process-btn" disabled>Processing...</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
